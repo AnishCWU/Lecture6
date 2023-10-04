@@ -1,0 +1,167 @@
+\documentclass[12pt,letterpaper]{article}
+
+% just for the example
+\usepackage{lipsum}
+% Set margins to 1.5in
+\usepackage[margin=1.5in]{geometry}
+
+% for graphics
+\usepackage{graphicx}
+
+% for crimson text
+\usepackage{crimson}
+\usepackage[T1]{fontenc}
+
+% setup parameter indentation
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% for 1.15 spacing between text
+\renewcommand{\baselinestretch}{1.15}
+
+% For defining spacing between headers
+\usepackage{titlesec}
+% Level 1
+\titleformat{\section}
+  {\normalfont\fontsize{18}{0}\bfseries}{\thesection}{1em}{}
+% Level 2
+\titleformat{\subsection}
+  {\normalfont\fontsize{14}{0}\bfseries}{\thesection}{1em}{}
+% Level 3
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{12}{0}\bfseries}{\thesection}{1em}{}
+% Level 4
+\titleformat{\paragraph}
+  {\normalfont\fontsize{12}{0}\bfseries\itshape}{\theparagraph}{1em}{}
+% Level 5
+\titleformat{\subparagraph}
+  {\normalfont\fontsize{12}{0}\itshape}{\theparagraph}{1em}{}
+% Level 6
+\makeatletter
+\newcounter{subsubparagraph}[subparagraph]
+\renewcommand\thesubsubparagraph{%
+  \thesubparagraph.\@arabic\c@subsubparagraph}
+\newcommand\subsubparagraph{%
+  \@startsection{subsubparagraph}    % counter
+    {6}                              % level
+    {\parindent}                     % indent
+    {12pt} % beforeskip
+    {6pt}                           % afterskip
+    {\normalfont\fontsize{12}{0}}}
+\newcommand\l@subsubparagraph{\@dottedtocline{6}{10em}{5em}}
+\newcommand{\subsubparagraphmark}[1]{}
+\makeatother
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{12pt}{6pt}
+\titlespacing*{\subsubsection}{0pt}{12pt}{6pt}
+\titlespacing*{\paragraph}{0pt}{12pt}{6pt}
+\titlespacing*{\subparagraph}{0pt}{12pt}{6pt}
+\titlespacing*{\subsubparagraph}{0pt}{12pt}{6pt}
+
+% Set caption to correct size and location
+\usepackage[tableposition=top, figureposition=bottom, font=footnotesize, labelfont=bf]{caption}
+
+% set page number location
+\usepackage{fancyhdr}
+\fancyhf{} % clear all header and footers
+\renewcommand{\headrulewidth}{0pt} % remove the header rule
+\rhead{\thepage}
+\pagestyle{fancy}
+
+% Overwrite Title
+\makeatletter
+\renewcommand{\maketitle}{\bgroup
+   \begin{center}
+   \textbf{{\fontsize{18pt}{20}\selectfont \@title}}\\
+   \vspace{10pt}
+   {\fontsize{12pt}{0}\selectfont \@author} 
+   \end{center}
+}
+\makeatother
+
+% Used for Tables and Figures
+\usepackage{float}
+
+% For using lists
+\usepackage{enumitem}
+
+% For full citations inline
+\usepackage{bibentry}
+\nobibliography*
+
+% Custom Quote
+\newenvironment{myquote}[1]%
+  {\list{}{\leftmargin=#1\rightmargin=#1}\item[]}%
+  {\endlist}
+  
+% Create Abstract 
+\renewenvironment{abstract}
+{\vspace*{-.5in}\fontsize{12pt}{12}\begin{myquote}{.5in}
+\noindent \par{\bfseries \abstractname.}}
+{\medskip\noindent
+\end{myquote}
+}
+
+
+
+% Set Title, Author, and email
+\title{Annotated Bibliography; CS325}
+\author{A Ghimire \\ GhimireAn@cwu.edu\\\today}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+
+
+\thispagestyle{fancy}
+
+\section*{Topic Proposal: }
+My topic is Artificial Intelligence and the Associated Threats. As technology rapidly advances, the once fictional idea of artificial intelligence (AI) is becoming a reality. With movies such as “Ex Machina” and “Her” exploring what AI could be capable of, it is no surprise that many people are asking themselves whether safe AI is even possible. After all, if machines become smarter than humans, what is to stop them from taking over the world? This question has been debated for centuries, but with the rapid expansion of AI capabilities, it is more relevant now than ever before. It is important to consider the history and importance of this topic to fully understand the implications of developing safe AI. AI is related to computer science because it is a field of study that deals with designing and developing intelligent computer systems. It is concerned with understanding the principles governing intelligent behavior and creating systems that emulate or exceed human intelligence. Computer science provides the theoretical foundations and technical tools necessary for the development of AI. 
+
+
+\subsection*{\bibentry{source6}}
+The potential of artificial intelligence is constantly growing, and its application is becoming more diverse. At the same time, the development of not only “intelligent” systems, but also their safe use for the benefit of humanity is vital. Specialists in the field of artificial intelligence are actively engaged in the study and development of algorithms, systems and technologies that will allow to safely use artificial intelligence for a wide variety of tasks, ranging from scientific research to autonomous driving. he benefits of artificial intelligence are many, but there are also potential risks. For example, AI algorithms can make decisions that are biased, or otherwise lead to undesired outcomes. To prevent this, research and development of AI must be accompanied by an appropriate ethical and legal framework that ensures the safe application of AI to protect human interests. The author currently works as a professor at Lomonosov Moscow State University and specialize in computer science.
+
+
+\subsection*{\bibentry{source7}}
+The article discusses the potential implications of artificial intelligence and machine learning on European machinery safety legislation. These new technologies present a whole new level of complexity, which could warrant a revision of the current legislation. While it is important to ensure safety levels are maintained, it is also crucial not to stifle innovation by over-regulating these industries. There needs to be a delicate balance between regulating for safety and allowing businesses to grow and innovate. It is related to computer science, engineering, and other related disciplines, as AI and ML algorithms can be used to automate certain processes. Furthermore, there are several ethical considerations that must be considered when building these systems. The first two authors, Sara Anastasi, and Luigi Monica are employed at the department of technological innovation and safety goods. Next up is Marianna Madonna, the third author, who works for the Operational Territorial Unit's Research, Certification, and Verification Area.
+
+
+\subsection*{\bibentry{source9}}
+In this article, the authors examine the potential implications of artificial intelligence (AI) on engineering as well as assert that AI is changing the way engineers approach projects and will continue to do so in the coming years. They also explore how AI can be used to increase efficiency, reduce costs, and improve safety standards. The article outlines the past, present, and future impact of AI on engineering, highlighting key findings such as increased automation, increased precision in monitoring processes, improved data analysis capabilities and better decision-making. With advancement in AI technologies is beneficial for engineering purposes, there are associated risks as well. They mention that it is important to consider privacy issues when using AI and how it can be used responsibly to ensure safety. All the authors are engineers and researchers in the fields of artificial intelligence and robotics. They are all employed as professors at University College Dublin, Ireland.
+
+
+\subsection*{\bibentry{source5}}
+The author argues that we are giving up our privacy too easily and that the implications of artificial intelligence on democracy are worrying. She also thinks that data collection by artificial intelligence will change the way we live and that we need to do something to protect our privacy and autonomy. The text argues that technology is having a significant impact on society and that we need to be more mindful of the implications of this technology. It specifically highlights the dangers of artificial intelligence and big data in changing the way we live and compromising our privacy and autonomy. Overall, it is a helpful introduction to the topic. The author, Kate Crawford, is an assistant professor at the University of North Carolina at Chapel Hill. She has written extensively on the effects of technology on society and the implications of big data. 
+
+
+\subsection*{\bibentry{source10}}
+The authors focus on how AI-enabled advancements such as robotic guides, automated customer service, and virtual reality experiences are likely to shape the future of travel in terms of the guest experience, job opportunities for hospitality staff, and business operations. Through a creative scenario-building approach with input from experts in tourism and AI, the authors identify potential implications for destinations. The findings reveal that AI can both benefit and threaten the tourist industry by altering the role of workers, reducing human interaction, and increasing customer demand for convenience. This is relevant to the original topic as it highlights how AI could have far-reaching implications which are likely to be both positive and negative. A critical analysis of their research in terms of potential limitations such as ethical considerations, privacy issues, and economic constraints, further enhances understanding of the matter. The authors graduated from the University of Applied Sciences Salzburg and have expertise in the field of tourism management.
+
+
+\subsection*{\bibentry{source2}}
+The main point of the book is that artificial intelligence will not be able to overtake human intelligence in the foreseeable future. This is because AI programs are often filled with bugs, and they are not able to account for all the variables that humans can. Consequently, the author believes that humans will always be better than machines when it comes to intelligence. The author argues that machine learning is different from artificial intelligence and that while machine learning can help us automate some tasks, it will never be able to replace humans when Artificial Intelligence has no emotions and empathy and is not able to understand human behavior. The book concludes with the idea that we should focus on using AI to complement our own intelligence, rather than trying to replace it. This author is a Taiwanese computer scientist who has made significant contributions to the fields of machine learning and artificial intelligence.
+
+
+\subsection*{\bibentry{source8}}
+As outlined in this article, AI could offer numerous benefits to the legal system - from improved accuracy in data processing to the ability to predict future criminal behaviours. However, he also argues that there are many potential risks associated with such an approach, including ethical issues and a lack of human oversight. In addition to considering both the pros and cons of using AI in criminal law, Nekrasov provides detailed examples of how this technology could be applied in a variety of contexts. His insights into the ethical considerations of using AI in criminal law are particularly relevant to the discussion surrounding Artificial Intelligence and associated threats. The use of AI has far-reaching implications on a number of levels and thus requires careful consideration before being implemented in legal systems. The author is well knowledgeable in this area, providing an authoritative perspective on the potential benefits and risks associated with AI-driven criminal law enforcement.
+
+
+\subsection*{\bibentry{source1}}
+The article discusses the importance of ensuring the safety of deep neural networks, as well as highlighting the potential benefits of using formal methods to verify their correctness. Formal methods can help to prevent catastrophic failures in deep neural networks and AI. The article does a good job of discussing the importance of ensuring the safety of deep neural networks. However, it could do a better job of highlighting the potential benefits of using formal methods to verify the correctness of such systems. Also, it would be useful to discuss how formal methods can help to prevent catastrophic failures in deep neural networks and in AI.  The first author is computer scientist Harald Ruess, who has worked on research in the areas of embedded systems and security software. The article's second author is Prof. Dr. Simon Burton, the research division director at Fraunhofer IKS, who directs research strategy into "safe intelligence."
+
+
+\subsection*{\bibentry{source3}}
+The article investigates the likelihood that artificial intelligence (AI) will dominate the construction industry. The following are some of the article's major conclusions: Construction projects are complicated and contain numerous factors, which may be challenging for humans to efficiently manage, and AI has the potential to dramatically increase their accuracy and efficiency. Because it examines the advantages and drawbacks of using AI in each domain, the article has a connection to computer science. Even while AI has the potential to improve the construction industry greatly, there are several concerns that must be considered, according to the author's critical study. The author believes that while AI may not totally take over the construction industry, it will probably play a significant part in it in the future. The article's main topic is how AI can be applied to the construction sector to increase precision and effectiveness. Elodie Hochscheid, a Ph.D. student at the University of Amsterdam and a Research Fellow of the Royal Netherlands Academy of Arts and Sciences, is the fourth author. The other three writers are Bradley University professors, Dr. Ammar Alzarrad, Souhail Elhouarich, and Chance Emanuels (KNAW).
+
+
+\subsection*{\bibentry{source4}}
+The book provides a balanced overview of the pros and cons of artificial intelligence. Some argue that AI has not been able to create its original ideas or solve complex problems on its own, while others believe that AI is better than humans at interacting with other people and adapting to new situations. The book poses an interesting question – can artificial intelligence overtake the world? The author provides a variety of evidence to support both sides of the argument, leaving the answer up to the reader to decide. Ultimately, this decision is left up to everyone, as they are best suited to make this determination after weighing all the information provided in the text. Toby Walsh, the author, is an AI scientist and professor at the University of New South Wales’s School of Computer Science and Engineering and Data61. He is a renowned expert on the ethical issues that artificial intelligence poses for humanity.
+
+
+\bibliographystyle{apalike2} 
+\nobibliography{bibtemp}
+
+
+\end{document}

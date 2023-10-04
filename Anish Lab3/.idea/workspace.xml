@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="605b27fd-465e-48b2-9152-bc9f97a7edf7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KtjpTCleyqc1Q7URFAYhaeUrS7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="218" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.AppDriver">
+    <configuration name="AppDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppDriver" />
+      <module name="GUIEx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhonebookDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhonebookDriver" />
+      <module name="GUIEx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppDriver" />
+        <item itemvalue="Application.PhonebookDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="605b27fd-465e-48b2-9152-bc9f97a7edf7" name="Changes" comment="" />
+      <created>1674800956327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674800956327</updated>
+      <workItem from="1674800957805" duration="3720000" />
+      <workItem from="1674885435758" duration="9582000" />
+      <workItem from="1675145616794" duration="1912000" />
+      <workItem from="1675199057512" duration="2816000" />
+      <workItem from="1675210132596" duration="2824000" />
+      <workItem from="1675217704512" duration="2266000" />
+      <workItem from="1675230648898" duration="39000" />
+      <workItem from="1675319672116" duration="61000" />
+      <workItem from="1675393037188" duration="153000" />
+      <workItem from="1675490349860" duration="29000" />
+      <workItem from="1675490766684" duration="242000" />
+      <workItem from="1675491115827" duration="1187000" />
+      <workItem from="1675492351947" duration="1204000" />
+      <workItem from="1675493947762" duration="449000" />
+      <workItem from="1675494450117" duration="101000" />
+      <workItem from="1675494618317" duration="212000" />
+      <workItem from="1675494851610" duration="20000" />
+      <workItem from="1675494955583" duration="142000" />
+      <workItem from="1675495144518" duration="219000" />
+      <workItem from="1675497337577" duration="10000" />
+      <workItem from="1675497350732" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab_3_Botir_Babadzhanov$AppDriver.ic" NAME="AppDriver Coverage Results" MODIFIED="1675494137291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

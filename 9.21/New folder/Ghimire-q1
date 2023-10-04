@@ -1,0 +1,25 @@
+    segment.data
+p   dq      5; creating varibale and assging value to dq
+q   dq      0x015ed ; creating variable abd assiging hexadecimal value to dq'
+r   dq      -3  ; creating variable and assiging value to dq
+s   dq      -4  ; creating varibale and assigning value to dq
+
+    segment.text
+    global main; link to main
+    
+main:
+    mov     rax, [p];  
+    mov     rax, [q] 
+    mov     rax, [r]
+    mov     rax, [s]
+    
+    mov     r13, [p]
+    add     r13, [q]
+    add     r13, [r]
+    add     r13, [s]
+    
+    xor rax,rax
+    leave ;
+    ret
+    
+    
